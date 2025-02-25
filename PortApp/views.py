@@ -4,7 +4,7 @@ from django.contrib import messages
 
 # Create your views here.
 def indexPage(request):
-    return render(request,"index.html")
+    return render(request,"_Portfolio.html")
 
 def saveContact(request):
     if request.method == "POST":
